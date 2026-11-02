@@ -1,0 +1,438 @@
+ * { 
+            margin: 0; 
+            padding: 0;
+        } 
+        ul, ol { 
+            list-style-type: none; 
+        } 
+        a { 
+            text-decoration: none; 
+            display: inline-block;
+        }  
+ .container {           
+    width: 1140px;    
+    margin: 0 auto;}  
+                       
+/* section header part 1 start  */
+        #headerPart { 
+            padding-top: 65px; 
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%
+        } 
+         .logowithmenu{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+         }
+         .menu ul{
+            display: flex;
+            column-gap: 70px;
+         }
+         .menu ul li a{
+              font-family: "Open Sans", sans-serif;
+              font-size: 20px;
+              font-weight: 400;
+              color: #474747;
+         }
+         .button{
+            padding:25px 35px;
+            background: #fd4e0f; ;
+            border-radius:5px;
+            color: aliceblue;
+            font-weight: 700;
+                  font-family: "Open Sans", sans-serif;
+                  font-size: 20px;
+         }
+         .logo{ 
+            width: 50%
+
+         }
+         .menu{
+             width: 30%
+
+         }
+         .button {
+             width: 20%
+
+         }
+         /* /* section header part 1 end */
+         #bannerPart {
+            padding-top: 300px;
+            padding-bottom: 180px;
+            background-image: url(../images/banner.png);
+            background-repeat: no-repeat;
+            background-position:center;
+            background-size:cover;
+         }
+         .bannertext h4{
+            font-family: "Open Sans", sans-serif;
+            font-size: 45px;
+            font-weight: 600;
+            color:  #474747;
+         }
+         .bannertext h1{
+            font-family: "Open Sans", sans-serif;
+            font-size: 85px;
+            font-weight: 700;
+            color:black;
+            padding: 20px 0 ;
+         }
+         .bannertext p{
+            font-family: "Open Sans", sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #474747;
+            width: 585px;
+            line-height: 30px;
+            margin-bottom: 20px;
+
+         }
+            .bannertext a{
+                padding: 15px 20px;
+                background: #fd4e0f;
+                border-radius: 5px;
+                color: aliceblue;
+                font-family: "Open Sans", sans-serif;
+                font-size: 20px;
+                font-weight: 700;
+                margin-right: 20px;
+                border: 1px solid #fd4e0f;
+                transition: all linear 0.4s;
+
+            }
+            .bannertext a:hover{
+                background: transparent;
+                color: #fd4e0f;
+            }
+
+            /* about part start */
+            #aboutPart{
+                padding: 100px 0;
+               
+            }
+            .AboutBg{
+               background: #E8ECEA;
+               border-radius:30px;
+               padding:130px 155px;
+               text-align: center;
+
+            }
+            .AboutBg h2{ 
+                font-family: "Open Sans", sans-serif;
+                font-size: 35px;
+                font-weight:700;
+                color:black;
+                padding-bottom: 20px;
+              
+            }
+             .AboutBg p{ 
+                font-family: "Open Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color: #757575;
+                line-height: 30px;
+               }
+               .info{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+               
+                
+               }
+               .info h4{
+                  font-family: "Open Sans", sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                  color: #757575;
+               }
+               .info h3{
+                  font-family: "Open Sans", sans-serif;
+                  font-size: 20px; 
+                  font-weight: 400;
+                  color: #757575;
+               }
+               /* thoer text start */
+             #otherPart{
+                  padding: 100px 0;
+             }
+             .othertext{
+             
+                justify-content: space-between;
+                align-items: center;
+                padding: 5px 115px;
+               }
+
+               .othertext h2{
+            
+                font-family: "Open Sans", sans-serif;
+                font-size: 35px;
+                font-weight: 700;
+                color: black;
+                text-align: center;
+               
+               }
+               .othertext p{
+                font-family: "Open Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color:#757575;
+                text-align: center;
+                line-height: 30px;
+               }
+
+
+               /* other text end */
+               /* staert js part */
+               
+.skills-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;              
+    padding: 40px 0px;        
+    background-color: transparent; 
+    flex-wrap: nowrap;           
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.skill-card {
+    background:#D4D4D4;         
+    border: 1px solid #D4D4D4; 
+    border-radius: 5px;       
+    width: 267px;             
+    height: 377px;             
+    padding: 35px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;              
+}
+
+.skill-icon {
+    width: 44px;              
+    height: 44px;
+    object-fit: contain;
+    margin-bottom: 30px;      
+}
+
+.skill-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin: 5px 0 15px 0;
+}
+
+.skill-desc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+    margin: 0;
+}
+
+
+               /* end js part */
+               .resume-section {
+    width: 100%;
+    max-width: 1140px;
+    margin: 60px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.resume-main-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin-bottom: 50px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px; 
+}
+
+.resume-column {
+    flex: 1;
+}
+
+.column-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.resume-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+.resume-item:last-child {
+    border-bottom: none; 
+}
+
+.item-degree {
+    font-size: 30px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin: 0 0 8px 0;
+}
+
+.item-meta {
+    display: block;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+
+.item-desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin: 0;
+}
+
+/* Download CV Button Styling */
+.download-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FF5E14; 
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #e04f0f;
+}
+
+.download-icon {
+    width: 20px;
+    height: 20px;
+}
+.contact-section {
+    width: 100%;
+    background-color: #FFF8F3; 
+    padding: 80px 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1140px;          /* উইডথ ১১৪০ পিক্সেল ফিক্সড করা হলো */
+    margin: 0 auto;             /* পুরো সেকশনটিকে স্ক্রিনের মাঝখানে রাখার জন্য */
+    padding: 0 20px;
+    gap: 100px;                 /* বাম ও ডান পাশের কন্টেন্টের মাঝখানের ফাঁকা জায়গা */
+    box-sizing: border-box;
+}
+
+/* বাম পাশের ইনফো সেকশন */
+.contact-info {
+    flex: 1;
+}
+
+.contact-title {
+    font-size: 35px;
+    font-weight: 700;
+    color: #1E1E1E;
+    margin: 0 0 24px 0;
+}
+
+.contact-desc {
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.social-links {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.combined-social-img {
+    height: 24px; 
+    object-fit: contain;
+    display: block;
+}
+
+/* ডান পাশের ফর্ম সেকশন */
+.contact-form-wrapper {
+    flex: 1;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #1E1E1E;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #757575;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 1px solid #FF5E14; 
+}
+
+.form-group textarea {
+    resize: none;
+    height: 180px; 
+}
+
+/* সাবমিট বাটন */
+.submit-btn {
+    align-self: flex-start; 
+    background-color: #FF5E14; 
+    color: #ffffff;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #e04f0f;
+}
